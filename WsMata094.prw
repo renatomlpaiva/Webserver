@@ -604,9 +604,9 @@ Local cMsg	:= ""
 Local cPedido := ""
 Local lOk	:= .F.
 
-//If !(_cEmp== NIL .Or. _cFil == Nil)
+
 	SAK->(DbSetOrder(2))
-	//CONOUT("CodUser==>>"+cCodUser)
+
 	If SAK->(DbSeek(xFilial("SAK")+RetCodUsr()))
 		SC7->(DbGoTo(nRecno))
 		cPedido := SC7->C7_NUM
