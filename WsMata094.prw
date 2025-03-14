@@ -437,7 +437,7 @@ Return lPost
 Static Function LoadPC(oJson,aJsonFields)
 Local lRet      := .F.
 Local cMsg      := ""
-Local cChaveXML := """
+Local cChaveXML := ""
 Local aHeader   := {}
 Local aContent  := {}
 Local nPos      := 0
